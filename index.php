@@ -9,6 +9,7 @@
   $persona_1->setBirthPlace('Italia');
 
   $dipendente_1 = new Dipendente ('H21ZD4', '1500', 'Impiegata', 'Tempo determinato');
+  //$dipendente_1->setCodeId('H21ZD4');.....(non funziona con il set)
 
   echo '<pre>';
   print_r($dipendente_1);
